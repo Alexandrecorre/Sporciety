@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+*::-webkit-scrollbar { 
+    display: none 
+}
+
+body {
+    font-family: Helvetica;
+    background-image: url("../Images/Wallpaper/cyclisme.jpg");
+    background-size: cover;
+}
+
+.ModifGroupe {
+    height: 72vh;
+    width: 60%;
+    border-radius: 5%;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.5);
+    margin: 4% auto;
+}
+
+.ModifGroupe h1 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.ModifGroupe h3 {
+    color: #ffffff;
+    padding-top: 1em;
+}
+
+.ModifGroupe p {
+    color: rgb(140,140,140);
+    
+    padding-right: 2%;
+}
+
+.ModifGroupe li {
+	margin-top: 1em;
+	color: white;
+}
+
+.ModifGroupe input[type="text"],
+.ModifGroupe input[type="email"],
+.ModifGroupe input[type="password"],
+.ModifGroupe select {
+    outline: none;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    font-size: 1.3em;
+    padding-top: 1.5em;
+}
+
+.ModifGroupe input[type="submit"] {
+    background-color: rgb(140,140,140);
+    border: 0.2em solid rgb(140,140,140);
+    width: 30%;
+    margin: 1em 35%;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 0.1em;
+    font-size: 1em;
+    padding: 1em;
+    text-decoration: none;
+}

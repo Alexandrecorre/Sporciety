@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    color:white;
+}
+
+*::-webkit-scrollbar { 
+    display: none 
+}
+
+html {
+    font-family: Helvetica;
+    background-image: url("../Images/Wallpaper/AT2.jpg");
+}
+
+.Connexion {
+    height: 56vh;
+    width: 60%;
+    border-radius: 5%;
+    padding: 2em;
+    background-color: rgba(0,0,0,0.5);
+    margin: 6% auto;
+}
+
+.Connexion h1 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 0.8em;
+    padding-bottom: 1em;
+    
+}
+
+.Connexion input,
+.Connexion select {
+    outline: none;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    font-size: 1.3em;
+    padding-top: 2em;
+}
+
+.Connexion input[type="submit"] {
+    background-color: rgb(140,140,140);
+    border: 0.2em solid rgb(140,140,140);
+    border-radius:0.5em;
+    width: 30%;
+    margin: 2em 35%;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 0.1em;
+    font-size: 1em;
+    padding: 1em;
+    text-decoration: none;
+}
+
+#plh::-webkit-input-placeholder {
+  color: white;
+  font-weight: 300;
+}
+
+#inscription {
+    margin-left: 71%;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+#inscription:hover {
+	text-decoration: underline;
+}
+
+#social img {
+    padding: 1em;
+    width: 2em;
+    margin-top: -5em;
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -moz-filter: brightness(100%);
+    -o-filter: brightness(100%);
+    -ms-filter: brightness(100%);
+}
+
+#social img:hover {
+    filter: brightness(300%);
+    -webkit-filter: brightness(300%);
+    -moz-filter: brightness(300%);
+    -o-filter: brightness(300%);
+    -ms-filter: brightness(300%);
+}

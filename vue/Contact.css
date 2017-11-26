@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+}
+
+*::-webkit-scrollbar { 
+    display: none 
+}
+
+body {
+    font-family: Helvetica;
+    background-image: url("../Images/Wallpaper/Connexion.jpg");
+    background-size: cover;
+}
+
+.Contact div {
+    display: inline-block;
+}
+
+.Contact {
+    width: 80%;
+    height: 32em;
+    border-radius: 2em;
+    padding: 3em;
+    background-color: rgba(0,0,0,0.5);
+    margin: 3% auto;
+    text-align: center;
+}
+
+.Contact h1 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.Presentation {
+    text-align: justify;
+    width: 40%;
+    margin-right: 2em;
+}
+
+.Presentation a{ 
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.Carte {
+    padding-left: 3em;
+}
+
+#Mail {
+    padding: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#Mail h3 { 
+    color: #ffffff; 
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#Mail a {
+    line-height: 2em;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    border: 0.1em solid #ffffff;
+    border-radius: 0.2em;
+    padding: 0.1em;
+}
+
+#Mail a:hover {
+    box-shadow: 0em 0em 0.5em #ffffff;
+}
+

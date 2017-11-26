@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+*::-webkit-scrollbar { 
+    display: none 
+}
+
+body {
+    font-family: Helvetica;
+    background-color: rgba(150,150,150,0.7);
+}
+
+.user {
+    margin: 2em 0 0 5em;
+}
+
+.user div {
+    display: inline-block;
+}
+
+.user img {
+    position: absolute;
+    top: 7.5em;
+    left: 3em;
+}
+
+#uinfo table {
+    display: block;
+    border: 0.2em solid black;
+    margin-left: 7em;
+    height: 7em;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.user a {
+    margin-left: 7.7em;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.mygroups {
+    margin: 2em 0 0 3em;
+}
+
+.mygroups div {
+    display: inline-block;
+}
+
+.mygroups table {
+    display: block;
+    margin-top: 3em;
+    border: 0.2em solid black;
+    height: 20.8em;
+    width: 40em;
+    padding: 0.5em;
+}
+
+.mygroups a, li {
+    text-align: left;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+
+.mygroups li {
+    margin-left: -1em;
+}
+
+#m, #c {
+    padding-left: 10%;
+}
+
+.more {
+    top: 5.1em;
+    left: 44em;
+
+}
+
+.more div {
+    display: inline-block;
+}
+
+.more table {
+    display: inline-block;
+    margin-top: 2em;
+    border: 0.2em solid black;
+    height: 14.2em;
+    width: 35em;
+}
+
+.more li {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+#p, #f {
+    padding-left: 15%;
+    padding-top: 5%;
+}

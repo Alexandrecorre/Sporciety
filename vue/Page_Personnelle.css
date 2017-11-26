@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+}
+
+*::-webkit-scrollbar { 
+    display: none 
+}
+
+html {
+    font-family: Helvetica;
+    background-color: rgba(150,150,150,0.7);
+}
+
+html h3 {
+    font-weight: 400;
+}
+
+#wrap {
+    margin-left: 2.69%;
+}
+
+.user {
+    margin: 2em 0 0 5em;
+}
+
+.user div {
+    display: inline-block;
+}
+
+.user img {
+    position: absolute;
+    top: 7.5em;
+    left: 5.3em;
+}
+
+#uinfo table {
+    display: inline-block;
+    border: 0.1em solid black;
+    margin-left: 7em;
+    height: 8em;
+    width: 21em;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.user a {
+    margin-left: 7.7em;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.mygroups {
+    margin: 2em 0 0 3em;
+}
+
+.mygroups div {
+    display: inline-block;
+}
+
+.mygroups table {
+    display: inline-block;
+    margin-top: 2em;
+    border: 0.1em solid black;
+    height: 18em;
+    width: 30em;
+    padding: 0.5em;
+    overflow: auto;
+}
+
+.mygroups a, li {
+    text-align: left;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+
+.mygroups li {
+    margin-left: -2em;
+    list-style: none;
+    padding: 0.3em;
+    font-weight: 300;
+}
+
+.more {
+    position: absolute;
+    top: 5.1em;
+    left: 52%;
+}
+
+.more div {
+    display: inline-block;
+}
+
+.more table {
+    display: inline-block;
+    margin-top: 2em;
+    border: 0.1em solid black;
+    height: 13em;
+    width: 30em;
+    overflow: auto;
+}
+
+.more li {
+    margin-left: -8em;
+    font-size: 1.5em;
+    list-style: none;
+    padding: 0.3em;
+    font-weight: 300;
+}
+
+.more a {
+    text-decoration: none;
+}
+
+#p, #f {
+    padding-top: 6%;
+}

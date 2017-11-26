@@ -1,0 +1,19 @@
+#editeur{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 5px;
+    overflow: auto;
+}
+<<<<<<< Updated upstream
+=======
+#bouton_bold:hover {
+	background-color: blue;
+	border-radius: 0.5em;
+}
+
+#bouton_bold a:active {
+	background-color: red;
+	border-radius: 0.5em;
+}
+>>>>>>> Stashed changes

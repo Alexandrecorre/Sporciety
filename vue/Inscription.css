@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    color:white;
+}
+
+*::-webkit-scrollbar { 
+    display: none 
+}
+
+body {
+    font-family: Helvetica;
+    background-image: url("../Images/Wallpaper/run.jpg");
+}
+
+.Inscription {
+    height: 80%;
+    width: 60%;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.5);
+    margin: 1% auto;
+}
+
+.Inscription h1 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.Inscription p {
+    color: rgb(140,140,140);
+    display: inline;
+    padding-right: 2%;
+    padding-left: 1%;
+    color: white;
+    font-weight: 300;
+}
+
+#plh::-webkit-input-placeholder {
+  color: white;
+  font-weight: 300;
+}
+
+.Inscription input[type="text"],
+.Inscription input[type="email"],
+.Inscription input[type="password"],
+.Inscription select {
+    outline: none;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    font-size: 1.3em;
+    padding-top: 1.5em;
+}
+
+.Inscription input[type="submit"] {
+    background-color: rgb(140,140,140);
+    border: 0.2em solid rgb(140,140,140);
+    border-radius:0.5em;
+    width: 30%;
+    margin: 1em 35%;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 0.1em;
+    font-size: 1em;
+    padding: 1em;
+    text-decoration: none;
+}
+.Inscription h4{
+    color: white;
+}

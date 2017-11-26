@@ -1,0 +1,244 @@
+* {
+	margin: 0;
+}
+
+*::-webkit-scrollbar { 
+	display: none
+}
+
+body {
+	font-family: Helvetica;
+	background-color: rgba(220,220,220,0.7);
+}
+
+#inscription {
+	position: absolute;
+	z-index: 3;
+	top: 12em;
+	right: 15em;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	border: 0.1em solid #ffffff;
+	padding: 0.5em;
+	border-radius: 0.5em;
+}
+
+#inscription:hover {
+	position: absolute;
+	z-index: 3;
+	top: 11.88em;
+	right: 14.9em;
+	border: 0.2em solid #ffffff;
+	box-shadow: 0em 0em 0.5em 0.2em #ffffff;
+}
+
+.slider {
+  width: auto;
+  overflow-x: hidden;
+}
+
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  animation: 25s slider infinite;
+}
+
+.slider img {
+  width: 20%; 
+  height: 100vh;
+}
+
+@keyframes slider {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: 0%; }
+}
+
+.search {
+	position: relative;
+	background-color: rgba(0,0,0,0.7);
+	margin-top: -3.1em;
+	padding: 0.8em;
+	border-top: 0.15em solid rgba(255,255,255,0.7);
+}
+
+.search select {
+	margin-left: 10%;
+	margin-right: 7.5%;
+	width: 20%;
+    outline: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    font-size: 1em;
+    padding-top: 1.5em;
+}
+
+.search input {
+    outline: none;
+    width: 20%;
+    margin-right: 7.5%;
+    border: none;
+    color: white;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    font-size: 1em;
+}
+
+#codepo::-webkit-input-placeholder {
+  color: white;
+}
+
+.search input[type="submit"] {
+    background-color: rgb(140,140,140);
+    border: 0.2em solid rgb(140,140,140);
+    border-radius: 0.3em;
+    width: 20%;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 0.1em;
+    font-size: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+#SPORT a {
+	z-index: 1;
+	font-size: 3em;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	line-height: 5em;
+}
+
+#SPORT, .picture, #MAPS, .googlemaps, #GROUPES, .vline {
+	text-align: center;
+}
+
+.picture > div div {
+	display: inline-block;
+	height: 20em;
+	margin-top: 1em;
+}
+
+.picture a {
+	font-size: 2em;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	line-height: 10em;
+}
+
+.picture a:hover {
+	border-bottom: 0.3em solid rgba(255,255,255,0.5);
+}
+
+.pline1 > div {
+	width : 29%;
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.p1 {
+	background-image: url("../Images/Sports/Basket.jpg");
+	margin-left: 2em;
+	margin-right: 1em;
+}
+
+.p2 { 
+	background-image: url("../Images/Sports/Boxe.jpg");
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.p3 { 
+	background-image: url("../Images/Sports/Ski.jpg");
+	margin-left: 1em;
+	margin-right: 2em;
+}
+
+
+.p4 { 
+	background-image: url("../Images/Sports/Athlétisme.jpg");
+	margin-left: 2em;
+	margin-right: 1em;
+	width : 29%; 
+}
+
+.p5 { 
+	background-image: url("../Images/Sports/Rugby.jpg");
+	margin-left: 1em;
+	margin-right: 2em;
+	width : 61%; 
+}
+
+.p6 { 
+	background-image: url("../Images/Sports/Natation.jpg");
+	margin-left: 2em;
+	margin-right: 1em;
+	margin-bottom: 2em;
+	width : 60%; 
+}
+
+.p7 {
+	background-image: url("../Images/Sports/Tennis.jpg");
+	margin-left: 1em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	width : 30%; 
+}
+
+#GROUPES a {
+	font-size: 3em;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	line-height: 5em;
+}
+.vedettes{
+	margin: 0;
+}
+.vedettes > div div {
+	display: inline-block;
+	height: 29.3em;
+	margin-top: 1em;
+}
+
+.vline a {
+	font-size: 2em;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	line-height: 14em;
+}
+
+.vline {
+	overflow: auto;
+	margin: 0 auto;
+	white-space: nowrap;
+}
+.vline > div {
+	width : 29%;
+	margin-bottom: 4em;
+}
+
+.v1, .v2, .v3 {
+	border: solid 0.5em rgb(40,40,40);
+	background-color: rgb(40,40,40);
+	background-image: url("../Images/Logos/Sporciety.png");
+	margin-left: 2em;
+	margin-right: 0.5em;
+	overflow-x:scroll;
+}

@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+}
+
+*::-webkit-scrollbar { 
+    display: none 
+}
+
+html {
+    font-family: Helvetica;
+    background-color: rgba(150,150,150,0.7);
+}
+
+html h3 {
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.mygroups {
+    margin: 2em 0 0 6%;
+}
+
+.mygroups a {
+    text-decoration: none;
+}
+
+.mygroups li {
+    font-weight: 300;
+    list-style: none;
+}
+
+#titre_h1 {
+    padding-left: 12%;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#pad_l {
+    padding-left: 12%; 
+}
+
+#pad_l2 {
+    padding-left: 14%;
+    padding-top: 1em;
+}
+
+.mygroups a {
+    color: black;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.members {
+    margin-top: 2em;
+}
+
+.members div {
+    display: inline-block;
+}
+
+.members li {
+    text-align: left;
+    font-size: 1.2em;
+    margin-left: -1.5em;
+    padding: 0.3em;
+}
+
+.members table {
+    display: inline-block;
+    border: 0.1em solid black;
+    margin-top: 1em;
+    height: 25em;
+    width: 25em;
+    padding: 0.5em;
+    padding-top: 1.2em;
+}
+
+.more {
+    position: absolute;
+    top: 5.1em;
+    left: 52%;
+}
+
+.more div {
+    display: inline-block;
+}
+
+.more table {
+    display: inline-block;
+    margin-top: 2em;
+    border: 0.1em solid black;
+}
+
+.more li {
+    text-align: left;
+    font-size: 1.5em;
+    padding: 0.3em;
+}
+
+#club table {
+    height: 13em;
+    width: 30em;
+    padding: 0.5em;
+    padding-left: 0.5em;
+}
+
+#club td {
+    width: 50em;
+}
+
+#cal ul {
+    padding: 0;
+}
+
+#cal table {
+    height: 9em;
+    width: 30em;
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+
+#club, #cal {
+    padding-top: 5%;
+}
+
+#cal p {
+    margin-left: -4.3em;
+}
+
+

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica;
+    background-image: url("../Images/Wallpaper/scubadiving.jpg");
+    background-size: cover;
+}
+
+.ModifProfil {
+    height: 72vh;
+    width: 60%;
+    border-radius: 5%;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.5);
+    margin: 4% auto;
+}
+
+.ModifProfil h1 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.ModifProfil h3 {
+    color: #ffffff;
+    padding-top: 1em;
+}
+
+.ModifProfil p {
+    color: rgb(140,140,140);
+    
+    padding-right: 2%;
+}
+
+.ModifProfil input[type="text"],
+.ModifProfil input[type="email"],
+.ModifProfil input[type="password"],
+.ModifProfil select {
+    outline: none;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    font-size: 1.3em;
+    padding-top: 1.5em;
+}
+
+.ModifProfil input[type="submit"] {
+    background-color: rgb(140,140,140);
+    border: 0.2em solid rgb(140,140,140);
+    width: 30%;
+    margin: 2.5em 35%;
+    margin-bottom: -0.1em;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 0.1em;
+    font-size: 1em;
+    padding: 1em;
+    text-decoration: none;
+}

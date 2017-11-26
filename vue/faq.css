@@ -1,0 +1,89 @@
+* {
+	margin : 0;
+  color: white;
+}
+
+*::-webkit-scrollbar { 
+  display: none 
+}
+
+body {
+	font-family: Helvetica;
+  background-image: url("../Images/Wallpaper/lebron.png");
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#titre p {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.question {
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+	padding-left: 4em;
+  color: white;
+
+}
+
+.reponse {
+	margin-bottom: 2em;
+	padding-left: 12em;
+}
+
+.reponse a {
+  color: white;
+  text-decoration: none;
+}
+
+#mail {
+    padding: 1em;
+    text-align: center;
+    padding-left: 4em;
+    margin-bottom: 6em;
+}
+
+#mail p { 
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 4.5em;
+}
+
+#mail a {
+	margin-top: 2em;
+}
+
+#mail p {
+  color: white;
+}
+
+#bouton_contact {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0.5em;
+	border: 0.1em solid white;
+	border-radius: 0.5em;
+}
+
+#bouton_contact:hover  {
+	color: white;
+	border: 0.2em solid white;
+}
+
+#L2 {
+  	background-color: rgba(220,220,220,0.7);
+  	height: 0.1em;
+  	width: 92%;
+  	margin: auto;
+}

@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  font-family: Helvetica;
+  background-color: rgba(150,150,150,0.7);
+  height: 0em;
+}
+
+.Posts h1 {
+  position: absolute;
+  top: 2.5em;
+  left: 49.9%;
+  padding: 1em;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.Sujet {
+  position: absolute;
+  top: 8em;
+  left: 1em;
+}
+
+.Sujet a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.Sujet a:hover {
+    text-shadow: 0em 0em 0.5em #ffffff;
+}
+
+#p {
+  position: absolute;
+  top: 12em;
+  left: 15.9em;
+  width: 75%;
+  background-color: rgba(100,100,100,0.7);
+  border-radius: 1em;
+  padding: 1em;
+  color: white;
+}
+
+#p h3 {
+  text-align: center;
+  padding: 1em;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+#ligne {
+  width: 100%;
+  border-bottom: 0.08em solid white;
+  margin-bottom: 1.5em;
+}
+
+#right {
+  margin-left: 4em;
+}
+
+#left {
+  text-align: center;
+}
+
+#editeur_description {
+  width: 70%;
+  margin-top: 1em;
+  border-radius: 1em;
+  background-color: rgba(255,255,255,0.7);
+  resize: none;
+  margin-left: 14.7%;
+  padding: 1em;
+  color: rgba(100,100,100,1);
+
+}
+
+#editeur_description:focus {
+  outline: none;
+}
+
+#divacacher p {
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#divacacher p,
+#divacacher input[type="datetime-local"] {
+  width: 70%;
+  color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background: transparent;
+  font-size: 1.3em;
+  padding-top: 1em;
+  margin-left: 15%;
+}
+
+#Plus p {
+  text-align: center;
+  width: 5em;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  font-weight: 300;
+  border: 1px solid #ffffff;
+  padding: 0.2em;
+  border-radius: 0.3em;
+}
+
+#Plus p:hover {
+  box-shadow: 0em 0em 0.5em 0.2em #ffffff;
+}
+
+#bouton_bold {
+  margin-left: 15%;
+}
+
+#divacacher input[type="button"] {
+  margin-top: 1em;
+}
+
+#divacacher input[type="submit"] {
+  background-color: rgb(140,140,140);
+  border: 0.2em solid rgb(140,140,140);
+  border-radius:0.5em;
+  width: 30%;
+  margin: 1em 35%;
+  cursor: pointer;
+  color: #ffffff;
+  line-height: 0.1em;
+  font-size: 1em;
+  padding: 1em;
+  text-decoration: none;
+}
+
+#divacacher input[type="submit"]:hover {
+  box-shadow: 0em 0em 0.5em 0.2em #ffffff;
+}

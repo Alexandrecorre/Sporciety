@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+}
+
+*::-webkit-scrollbar { 
+	display: none 
+}
+
+html {
+	font-family: Helvetica;
+    background-image: url("../Images/Wallpaper/PageSport.jpg");
+    background-size: cover;
+}
+
+.titre h1 {
+	text-align: center;
+	color: white;
+}
+
+.Groupes a {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	line-height: 2.2em;
+	margin: 6em;
+}
+
+.center {
+	margin: auto;
+	text-align: center;
+}
+
+.NouveauGroupe {
+	margin-top: 20em;
+}
+
+.NouveauGroupe a {
+	margin-left: 43em;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	border: 0.1em solid #ffffff;
+	padding: 0.5em;
+	border-radius: 0.5em;
+}
+
+.NouveauGroupe a:hover {
+	color: #ffffff;
+	border: 0.2em solid #ffffff;
+	box-shadow: 0em 0em 0.5em 0.2em #ffffff;
+	margin-left: 42.9em;
+}
+
+.texte {
+	color: white;
+}
+
+

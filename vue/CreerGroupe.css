@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+}
+
+*::-webkit-scrollbar { 
+    display: none 
+}
+
+body {
+    font-family: Helvetica;
+    background-image: url("../Images/Wallpaper/cyclisme.jpg");
+    background-size: cover;
+}
+
+.Creation {
+    height: 80%;
+    width: 60%;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.5);
+    margin: 2% auto;
+}
+
+.Creation h1 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 500;
+}
+.Creation h4{
+    color:#ffffff;
+}
+
+
+.Creation p {
+    color: rgb(140,140,140);
+    display: inline;
+    padding-right: 2%;
+}
+
+.Creation input[type="text"],
+.Creation input {
+    outline: none;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    font-size: 1.3em;
+    padding-top: 1.5em;
+}
+
+.Creation select {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    outline: none;
+    width: 100%;
+    color: grey;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    font-size: 1.3em;
+
+}
+
+.Creation textarea {
+    width: 95%;
+    height: 10em;
+    margin-top: 1em;
+    border-radius: 1em;
+    border: 0.2em solid rgb(140,140,140);
+    background-color: white;
+    resize: none;
+    font-size: 17px;
+    padding: 1em;
+}
+
+#txtarea:focus {
+    outline: none;
+}
+
+.Creation input[type="submit"] {
+    background-color: rgb(140,140,140);
+    border: 0.2em solid rgb(140,140,140);
+    border-radius:0.5em;
+    width: 30%;
+    margin: 1em 35%;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 0.1em;
+    font-size: 1em;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.Creation a {
+    text-decoration: none;
+}
+
+.Creation p {
+    color: white;
+    font-weight: 300;
+}
+
+.Creation select {
+    color: white;
+    font-weight: 200;
+}
+
+#plh::-webkit-input-placeholder {
+  color: white;
+  font-weight: 300;
+}
+
+
+#social {
+    height: 4em;
+}
+
+#social img {
+    margin: 0.5em;
+    height: 2em;
+    filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+        -moz-filter: brightness(100%);
+        -o-filter: brightness(100%);
+        -ms-filter: brightness(100%);
+}
+
+#social img:hover {
+    margin: 0.5em;
+    height: 2em;
+    filter: brightness(300%);
+    -webkit-filter: brightness(300%);
+    -moz-filter: brightness(300%);
+    -o-filter: brightness(300%);
+    -ms-filter: brightness(300%);
+}
