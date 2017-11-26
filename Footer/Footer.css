@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+}
+
+footer{
+  font-family: Helvetica;
+  background-color: rgb(40,40,40)
+}
+
+#social {
+  height: 4em;
+  text-align: center;
+}
+
+#social img {
+  margin: 0.5em;
+  height: 2em;
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+}
+
+#social img:hover {
+  margin: 0.5em;
+  height: 2em;
+  filter: brightness(300%);
+  -webkit-filter: brightness(300%);
+  -moz-filter: brightness(300%);
+  -o-filter: brightness(300%);
+  -ms-filter: brightness(300%);
+}
+
+#copyright {
+	text-align: center;
+}
+
+#copyright a {
+	font-size: 0.6em;
+	color: rgba(220,220,220,0.7);
+	text-decoration: none;
+}
+
+.organisation {
+  background-color: rgb(40,40,40);
+  padding: 2em;
+}
+
+.organisation h3{
+	margin-left: 59%;
+	text-decoration: none;
+  color: rgba(220,220,220,0.7);
+}
+
+.organisation h4{
+	text-decoration: none;
+  color: rgba(220,220,220,0.7);
+}
+
+.organisation td h4:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.organisation td {
+ 	padding: 3em;
+}
+
+.organisation td a {
+  text-decoration: none;
+  color: rgba(220,220,220,0.7);
+}
+
+.organisation td img {
+  height: 4em;
+}
+
+.organisation table {
+  margin: auto;
+  text-align: center;
+}
+
+.organisation br {
+  line-height: 1.5em;
+}
+
+#ligne {
+  background-color: rgba(220,220,220,0.7);
+  height: 0.1em;
+  width: 92%;
+  margin: auto;
+}
